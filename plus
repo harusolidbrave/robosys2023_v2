@@ -1,0 +1,29 @@
+#!/usr/bin/python3
+#SODX-FileCopyrrightText: 2023 harutaka sato s22c1058@s.chibakoudai.jp
+#SPDX-license-Identifier: BSD-3-Clause
+import sys
+
+addition = ""
+multiplication = ""
+addition_result = 0.0
+multiplication_result = 1.0
+
+for line in sys.stdin:
+    try:
+        num = float(line)
+        addition_result += num
+        multiplication_result *= num
+        addition += f"{num} + "
+        multiplication += f"{num} * "
+    except:
+        num = float(line)
+        addition_result += num
+        multiplication_result *= num
+        addition += f"{num} + "
+        multiplication += f"{num} * "
+
+addition = addition.rstrip(" + ")
+multiplication = multiplication.rstrip(" * ")
+
+print(f"{addition} = {addition_result}")
+print(f"{multiplication} = {multiplication_result}")
