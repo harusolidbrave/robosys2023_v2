@@ -4,14 +4,14 @@ plusは千葉工業大学の2023年度ロボットシステム学の授業内課
 
 ## test結果
 
-![test](https://github.com/harusolidbrave/robosys2023/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/harusolidbrave/robosys2023_v2/actions/workflows/test.yml/badge.svg)
 
 ## インストール方法
 ```bash
-$ git clone https://github.com/harusolidbrave/robosys2023.git
+$ git clone https://github.com/harusolidbrave/robosys2023_v2.git
 ```
 ```bash
-$ cd robosys2023
+$ cd robosys2023_v2
 ```
 
 ## コマンドの説明
